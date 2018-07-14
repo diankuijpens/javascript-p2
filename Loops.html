@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Document</title>
+</head>
+<body>
+    Rij:  <input id='rij'><br>
+    Kolom:<input id='kol'><br>
+    <button onclick="maakTabel();return false">Maak tabel</button>
+
+    <div id="output"></div>
+    <script>
+        //vraag 3
+        function maakTabel(){
+            var rij = document.getElementById(rij).value;
+            var kol = document.getElementById(kol).value;
+
+            var tabel = '<table cellpadding="10" cellspacing="10" border="1">'; 
+            for (var i = 1; i <= rij; i++) {
+                tabel += <tr>;
+                for (var j = 1; j <= kol; j++) {
+                    tabel += <td>(${i} , ${j})</td>;  // gebruik backticks () om variabelen makkelijker in de zin te zetten. dit heet een "template literal"
+                }
+                tabel +=</tr>';
+            }
+            tabel +='</table>;
+            document.getElementById('output').innerHTML = tabel;
+        }
+    </script>
+</body>
+</html>

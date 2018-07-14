@@ -1,0 +1,16 @@
+<script>
+var getal1= 7, getal2= 7;
+var ans = Math.max (getal1,getal2);
+document.write("Het grootste getal is" + ans)
+</script>
+
+
+<script>
+var getal1 = 7;
+var getal2 = 7;
+if (getal1 && getal2 ==)
+{
+Result = Antwoord heeft dezelfde waarde"}
+var result = getal1 + getal2;
+document.write ("Het bedrag is even groot")
+</script>

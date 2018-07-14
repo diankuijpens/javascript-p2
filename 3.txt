@@ -1,0 +1,18 @@
+ <script>
+function Math.max
+var getal1= Math.max ()
+{
+var getal1 = Math.max(5);
+var getal2= Math.max (10)
+var result= max(5, 10)
+}
+  document.write ("Het grootste getal is"+ result)
+</script>
+
+<script>
+var Math.max getal1= 2;
+var Math.max getal2= 3;
+function Math.max (getal1,getal2)
+{
+var arr = [2,3]
+var max = arr.reduce

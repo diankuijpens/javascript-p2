@@ -1,0 +1,11 @@
+<script>
+var getal1 = 1;
+var getal2= 5;
+function som (getal1,getal2)
+{
+var result= getal1 + getal2;
+return result;
+}
+var uitkomst= som(1,5);
+document.write ("De uitkomst is van getal1 en getal 2 is: " + uitkomst);
+</script>
